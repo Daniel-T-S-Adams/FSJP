@@ -1,0 +1,19 @@
+{
+  "difficulty_parameters": {
+    "num_jobs": 10
+  },
+  "fixed_parameters": {
+    "operations_per_job": [7, 10],
+    "flexibility": [1, 5],
+    "machine_scaling_exponent": 0.5,
+    "operation_duration" : [1, 10]
+  },
+  "experiment_parameters": {
+    "test_name": "basic_test",
+    "num_seeds": 50,
+    "random_seed_base": 42000
+  },
+  "algorithms": {
+    "shortest_processing_time": true
+  }
+} 
